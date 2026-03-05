@@ -1,0 +1,16 @@
+org_name: nullstone
+name: gcp-firebase-webapp
+friendly_name: Firebase Web App
+description: Creates a Firebase Web App
+category: block
+subcategory: ""
+provider_types:
+    - gcp
+platform: firebase
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/gcp-firebase-webapp
