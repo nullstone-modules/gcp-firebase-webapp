@@ -9,6 +9,6 @@ output "web_app_name" {
 }
 
 output "api_key_id" {
-  value       = google_firebase_web_app.this.api_key_id
-  description = "string ||| The globally unique, Google-assigned identifier (UID) for the Firebase API key associated with the Web App."
+  value       = google_apikeys_key.web.key_string
+  description = "string ||| The Firebase Web API Key used to embed in client-side code that identify the project."
 }
