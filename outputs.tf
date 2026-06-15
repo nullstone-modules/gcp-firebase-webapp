@@ -11,4 +11,5 @@ output "web_app_name" {
 output "api_key_id" {
   value       = google_apikeys_key.web.key_string
   description = "string ||| The Firebase Web API Key used to embed in client-side code that identify the project."
+  sensitive   = true
 }
